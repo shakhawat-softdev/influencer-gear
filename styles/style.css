@@ -1,28 +1,27 @@
-/* * {
-    margin: 0;
-    padding: 0;
-} */
 
 /* ------------------------------------
                 common style
 --------------------------------------- */
 .body {
     font-family: 'Poppins';
-    margin: 0 auto;
+    /* margin: 0 auto; */
     display: flex;
     flex-direction: column;
-    justify-items: center;
-    align-items: center;
+    border: 5px solid blue;
+    
 }
 
 
 
-/* .main{
+.main{
     display: flex;
     flex-direction: column;
     align-items: center;
-} */
-
+    border: 5px solid blue;
+}
+.style{
+    border: 0;
+}
 
 /*--------------------------------
                 Header-nav
@@ -133,9 +132,9 @@ li{
    gap: 96px;
    
 }
-.product{
+/* .product{
     box-shadow: 10px 10px 10px 10px grey;
-}
+} */
 /*-----------------------------------------------
                              footer-
 ------------------------------------------------- */
